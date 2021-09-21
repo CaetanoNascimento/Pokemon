@@ -15,11 +15,9 @@ app.get('/', (req, res) => {
     res.sendFile(__dirname + ('/public/index.html'))
 })
 
-
 app.get('/pokedex', (req, res) => {
     res.sendFile(__dirname + ('/public/paginas/pokedex.html'))
 })
-
 
 app.use('/pokemon', rotaPokemon);
 app.use('/pokedexx', rotaPokedex);

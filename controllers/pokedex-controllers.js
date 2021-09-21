@@ -22,3 +22,28 @@ exports.getPokemon = async(req, res, next) => {
         return res.status(500).send({ error: error })
     }
 }
+
+exports.getUmPokemon = async(req, res, next) => {
+    try {
+        const query = 'SELECT * FROM pokemon WHERE id_pokemon = ?'
+
+        const result = await mysql.execute(query, [ req.params.id_pokemon])
+
+        const response = {
+            mensagem: 'pokemon selecionado com sucesso',
+            pokemon:{
+                id_pokemon: result[0].id_pokemon,
+                nome_pokemon: result[0].nome_pokemon,
+                ataque_pokemon: result[0].ataque_pokemon,
+                experiencia: result[0].experiencia,
+                tipo_pokemon: result[0].tipo_pokemon,
+                color: result[0].color,
+                imagem_pokemon: result[0].imagem_pokemon
+
+            }
+        }
+        return res.status(200).send(response)
+    } catch (error) {
+        return res.status(500).send({ error: error })
+    }
+}

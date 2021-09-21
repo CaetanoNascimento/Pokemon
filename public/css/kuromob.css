@@ -1,0 +1,800 @@
+@media only screen and (max-width: 480px){
+    .order1{
+  
+      display: flex;
+      order: 1;
+    }
+  
+    .order2{
+  
+      display: flex;
+      order: 2;
+    }
+    html, body { height: 100%;}
+    @font-face {
+      font-family: 'karlaregular';
+      src: url('../fonts/karla-regular-webfont.woff2') format('woff2'),
+           url('../fonts/karla-regular-webfont.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+  
+  }
+  @font-face {
+    font-family: 'robotoregular';
+    src: url('../fonts/roboto/roboto-regular-webfont.woff2') format('woff2'),
+         url('../fonts/roboto/roboto-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  
+  }
+      body{
+          margin: 0;
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center center;
+          
+      }
+      .principal {
+        margin: auto;
+        width: 812px;
+        background-color: #F5DB13;
+        z-index: -1;
+    }
+    .principalpokedex{
+      background-color: white;
+    }
+    .principallegendaries{
+      background-color: black;
+    }
+    .principalmodal{
+      background-color: rgba(160, 155, 153, 0.39);
+      position: fixed;
+      top: 0;
+      display: none;
+      width: 100%;
+      height: 100%;
+    }
+    #id01{
+      display: none;
+    }
+    #testemodal{
+      background-color: rgba(0, 0, 0, 0);
+      border: rgba(0, 0, 0, 0);
+      margin-left: 512px;
+    }
+  
+    #testemodal:visited {
+      color: rgba(255, 192, 203, 0);
+    }
+   
+  
+    #modal_menu{
+      display: none;
+      z-index: 2;
+      position: absolute;
+      background: linear-gradient(#F5DB13, #F2B807) ;
+      width: 812px;
+      border-radius: 0px 0px 16px 16px;
+    }
+    #pokemonmodal{
+      margin-left: 292px;
+      margin-top: 40px;
+      height: 101px;
+    }
+  
+  
+    .order2{
+  
+      display: flex;
+      order: -1;
+    }
+      /* For desktop: */
+        .col-1 {width: 8.33%;}
+        .col-2 {width: 16.66%;}
+        .col-3 {width: 25%;}
+        .col-4 {width: 33.33%; height: 80px;}
+        .col-5 {width: 41.66%;}
+        .col-6 {width: 50%;}
+        .col-7 {width: 58.33%;}
+        .col-8 {width: 66.66%;}
+        .col-9 {width: 75%;}
+        .col-10 {width: 83.33%;}
+        .col-11 {width: 91.66%;}
+        .col-12 {width: 100%;}
+        .col-s {width: 100%;}
+        
+      
+        .row-1 {width: 100%; display: flex;flex-direction: column;}
+        .box{
+          box-shadow: 0px 4px 16px rgba(1, 28, 64, 0.2);
+        }
+        .pokedexbox{
+          box-shadow: 0px 4px 16px rgba(1, 28, 64, 0.2);
+          background-color: #F5DB13;
+        }
+        .legendariesbox{
+          box-shadow: 0px 4px 16px rgba(1, 28, 64, 0.2);
+          background-color: #F5DB13;
+        }
+        .homes ul {
+          list-style-type: none;
+          overflow: hidden;
+          display: none;
+        }
+        ul{
+          overflow: hidden;
+          list-style-type: none;
+        }
+        li {
+          float: top;
+        }
+        
+        li a {
+          font-family: 'robotoregular';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 27px;
+          line-height: 30px;
+          display: block;
+          color: #212121;
+          text-align: center;
+          padding: 16px;
+          text-decoration: none;
+        }
+        #pokemon{
+          margin-left: 43px;
+          margin-top: 15px;
+        }
+        .homes li:hover{
+          border-bottom: 3px solid #212121;
+        }
+        #texto{
+          font-family: 'karlaregular';
+          font-size: 72px;
+          font-weight: 400;
+          font-style: normal;
+          line-height: 89px;
+          margin-left: 152px;
+          width: 500px;
+          text-align: center;
+          margin-top: -22px;
+          letter-spacing: 4px;
+        }
+        #texto2{
+          font-size: 32px;
+          font-weight: 400;
+          font-family: 'karlaregular';
+          margin-left: 187px;
+          text-align: center;
+          width: 412px;
+          margin-top: -62px;
+        }
+        .baner{
+          margin-left: -5px;
+        }
+        #botao {
+          background: #73D677;
+          box-shadow: inset 0px -9px 0px rgba(0, 0, 0, 0.18);
+          border-radius: 11px;
+          font-family: 'karlaregular';
+          font-weight: 700;
+          margin-left: 226px;
+          width: 312px;
+          height: 55px;
+          font-size: 23px;
+          margin-top: 24px;
+      }
+      #textoprocure{
+        font-family: 'karlaregular';
+        font-size: 32px;
+        font-weight: 400;
+        font-style: normal;
+        text-align: center;
+        margin: auto;
+        margin-top: 40px;
+        letter-spacing: 3px;
+        width: 344px;
+      }
+      #pesquisa{
+        width: 810px;
+        height: 46px;
+        box-shadow: 4px 10px 6px rgba(33, 33, 33, 0.1);
+        border-radius: 40px;
+        background: #F2F2F2;
+        border-style: none;
+        text-align: center;
+        margin: auto;
+        margin-top: 20px;
+      }
+      .drop {
+        background-color: #F2F2F2;
+        color: black;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        box-shadow: 2px 8px 4px rgba(33, 33, 33, 0.1);
+        border-radius: 8px;
+        margin-top: 30px;
+        width: 200px;
+        height: 30px;
+        font-family: 'karlaregular';
+        z-index: -1;
+      }
+      
+      .dropdown {
+        position: relative;
+        display: inline-block;
+        margin-left: 75px;
+      }
+      
+      .dropdown-content {
+        display: none;
+  
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      
+      .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+      .pyroar{
+        background-image: linear-gradient(to right, red,yellow) ;
+        text-align: center;
+        border-radius: 8px;
+      }
+      .boxpoke{
+        background: #F6F7F9;
+        border-radius: 8px;
+      }
+      #nomedopokemon{
+        text-shadow: 4px 4px 4px rgba(33, 33, 33, 0.1);
+        font-family: 'karlaregular';
+        font-style: normal;
+        font-size: 18px;
+        line-height: 21px;
+        font-weight: 700;
+        margin-left: 25px;
+      }
+      #nomedopokemon2{
+        text-shadow: 4px 4px 4px rgba(33, 33, 33, 0.1);
+        font-family: 'karlaregular';
+        font-style: normal;
+        font-size: 36px;
+        line-height: 42px;
+        font-weight: 700;
+        margin-left: 25px;
+        color: #FDFDFD;
+      }
+      .circulo{
+        width: 36px;
+        height: 37px;
+        background-color: rgba(255, 0, 0, 0);
+        border-radius: 50%;
+        border: 5px;
+        border-style: solid;
+        margin-left: 19px;
+        text-align: center;
+        margin-top: 10px;
+      }
+      #numerodopoder{
+        font-family: 'karlaregular';
+        font-style: normal;
+        font-size: 15px;
+        line-height: 17px;
+        font-weight: 400;
+        padding: 10px;
+        display: block;
+      }
+      #span{
+        font-family: 'karlaregular';
+        font-style: normal;
+        font-size: 12px;
+        line-height: 14px;
+        font-weight: 400;
+        text-align: center;
+        margin-left: 18px;
+      }
+      .poder {
+        background: rgba(224, 7, 7, 0.863);
+        display: inline-block;
+        width: 60px;
+        height: 16px;
+        border-radius: 11px;
+        box-shadow: inset 0px -2px 0px rgba(0, 0, 0, 0.18);
+        font-family: 'karlaregular';
+        font-style: normal;
+        font-size: 12px;
+        line-height: 14px;
+        font-weight: 400;
+        text-align: center;
+        margin-top: 10px;
+        margin-left: 44px;
+        position: relative;
+      }
+      .water{
+        background: #07D6F2;
+      }
+      .normal{
+        background: rgb(238, 172, 150);
+      }
+      .electric{
+        background-color: yellow;
+      }
+      .dark{
+       background-color: #707070;
+      }
+      .rock{
+        background-color: #a38c21;
+      }
+      .fairy{
+        background-color: pink;
+      }
+      .centro{
+        margin-top: 25px;
+        margin-left: 25px;
+      }
+      .centro2{
+        margin-top: 85px;
+        margin-left: 25px;
+      }
+      .centro3{
+        margin-top: 85px;
+        margin-left: 25px;
+      }
+      .esquerda{
+        margin-top: 25px;
+        margin-left: 55px;
+      }
+      .esquerda2{
+        margin-top: 85px;
+        margin-left: 55px;
+      }
+      .esquerda3{
+        margin-top: 85px;
+        margin-left: 55px;
+      }
+      .direita{
+        margin-top: 25px;
+        margin-left: 25px;
+        margin-right: 34px;
+      }
+      .direita2{
+        margin-top: 85px;
+        margin-left: 25px;
+        margin-right: 34px;
+      }
+      .direita3{
+        margin-top: 85px;
+        margin-left: 25px;
+        margin-right: 34px;
+      }
+      .pachirisu{
+        background-image: linear-gradient(to right, #5BC7FA,#35BAFF) ;
+        text-align: center;
+        border-radius: 8px;
+      }
+      .pikachu{
+        background-image: linear-gradient(to right, #F2CB07,#F2B807) ;
+        text-align: center;
+        border-radius: 8px;
+      }
+      .squirtle{
+        background-image: linear-gradient(to right, #5BC7FA,#35BAFF) ;
+        text-align: center;
+        border-radius: 8px;
+      }
+      .quilava{
+        background-image: linear-gradient(to right, #B23327,#D93E30) ;
+        text-align: center;
+        border-radius: 8px;
+      }
+      .charizard{
+        background-image: linear-gradient(to right, #B23327,#D93E30) ;
+        text-align: center;
+        border-radius: 8px;
+        cursor: pointer;
+        max-width: 360px;
+      }
+      .charizard2{
+        background: linear-gradient(#732119, #D93E30);
+        border-top-left-radius: 0px;
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+        border-bottom-left-radius: 0x;
+        max-width: 420px;
+      }
+      .charizard3{
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+  
+      }
+      .tyranitar{
+        background-image: linear-gradient(to right,#a38c21, black) ;
+        text-align: center;
+        border-radius: 8px;
+      }
+      .jigglypuff{
+        background-image: linear-gradient(to right,#F89EAE, #F4B5C1) ;
+        text-align: center;
+        border-radius: 8px;
+      }
+      .mudkip{
+        background-image: linear-gradient(to right, #5BC7FA,#35BAFF) ;
+        text-align: center;
+        border-radius: 8px;
+      }
+      .modal {
+        margin-top: 20%;
+        margin-left: 23%;
+    }
+      .nomedopokemon2{
+        margin-top: 30px;
+        margin-left: -6px;
+      }
+      .geracao{
+        margin-top: 50px;
+      }
+      #geracao{
+        font-family: 'karlaregular';
+        font-style: normal;
+        font-size: 24px;
+        line-height: 14px;
+        font-weight: 400;
+        text-align: center;
+        color: white;
+      }
+      .abilites{
+        box-shadow: 4px 4px 4px rgba(33, 33, 33, 0.1);
+        border-radius: 8px;
+        background-color: #FDFDFD;
+        font-family: 'karlaregular';
+        font-style: normal;
+        font-size: 16px;
+        font-weight: 400;
+        color: black;
+        margin-left: 14px;
+        margin-top: -30px;
+      }
+      #abilites{
+        margin-left: 30px;
+        margin-top: 5px;
+        margin-bottom: 10px;
+      }
+      .atributos{
+        box-shadow: 4px 4px 4px rgba(33, 33, 33, 0.1);
+        border-radius: 8px;
+        background-color: #FDFDFD;
+        color: black;
+        margin-top: 10px;
+        margin-left: 14px;
+      }
+      #atributos{
+        margin-left: 20px;
+        font-family: 'karlaregular';
+        font-style: normal;
+        font-size: 16px;
+        line-height: 14px;
+        font-weight: 400;
+        margin-bottom: 0px;
+        margin-top: 23px;
+      }
+      #atributos2{
+        margin-left: 20px;
+        font-family: 'karlaregular';
+        font-style: normal;
+        font-size: 16px;
+        line-height: 14px;
+        font-weight: 700;
+        margin-bottom: 0px;
+        margin-top: 0px;
+      }
+      .barra{
+        border-radius: 8px;
+        background: linear-gradient( #64D368,  #64D368 );
+        height: 5px;
+        margin-left: 20px;
+        margin-top: 2px;
+        margin-bottom: 15px;
+      }
+      .barra2{
+        border-radius: 8px;
+        background: linear-gradient( #F5DB13,  #F2B807 );
+        height: 5px;
+        margin-left: 96px;
+        margin-top: 2px;
+      }
+      .status{
+        box-shadow: 4px 4px 24px rgba(1, 17, 38, 0.2);
+        border-radius: 8px;
+        background-color: #FDFDFD;
+        display: inline;
+        margin-top: 21px;
+        margin-bottom: 25px;
+        margin-left: 14px;
+        width: 82px;
+      }
+      .status2{
+        box-shadow: 4px 4px 24px rgba(1, 17, 38, 0.2);
+        border-radius: 8px;
+        background-color: #FDFDFD;
+        display: inline;
+        margin-top: 21px;
+        margin-bottom: 25px;
+        margin-left: 24px;
+        width: 82px;
+      }
+      .status3{
+        box-shadow: 4px 4px 24px rgba(1, 17, 38, 0.2);
+        border-radius: 8px;
+        background-color: #FDFDFD;
+        display: inline;
+        margin-top: 21px;
+        margin-bottom: 25px;
+        margin-left: 17px;
+        width: 82px;
+      }
+      .status4{
+        box-shadow: 4px 4px 24px rgba(1, 17, 38, 0.2);
+        border-radius: 8px;
+        background-color: #FDFDFD;
+        display: inline;
+        margin-top: 21px;
+        margin-bottom: 25px;
+        margin-left: 16px;
+        width: 82px;
+      }
+      #power{
+        margin-left: 20px;
+        font-family: 'karlaregular';
+        font-style: normal;
+        font-size: 12px;
+        line-height: 14px;
+        font-weight: 400;
+      }
+      .circulozinho{
+        width: 36px;
+        height: 37px;
+        background-color: rgba(255, 0, 0, 0);
+        border-radius: 50%;
+        border: 5px;
+        border-style: solid;
+        margin-left: 10px;
+        text-align: center;
+        margin-top: 30px;
+        border-color: #F2CB07;
+        background-color: #F2CB07;
+      }
+      #numerodeidentificacao{
+        font-family: 'karlaregular';
+        font-style: normal;
+        font-size: 16px;
+        line-height: 14px;
+        font-weight: 500;
+      }
+      #x{
+        width: 36px;
+      }
+      .titulos{
+        font-family: 'karlaregular';
+        font-style: normal;
+        font-size: 72px;
+        line-height: 84px;
+        font-weight: 400;
+        color: #ffffff;
+        margin-left: 42px;
+        display: block;
+        margin-top: 40px; 
+      }
+      .borda{
+        border-radius: 1px;
+        background: #FFFFFF;
+        height: 1px;
+        margin-left: 41px;
+      }
+      #meww{
+        margin-left: 45px;
+        margin-top: 51px;
+      }
+      .mewtwo{
+        margin-top: 39px;
+      }
+      #descricao{
+        font-family: 'karlaregular';
+        font-style: normal;
+        font-size: 16px;
+        line-height: 20px;
+        font-weight: 400;
+        color: #ffffff;
+        width: 438px;
+        margin-left: 46px;
+      }
+      .healthypoints{
+        color: #ffffff;
+      }
+      #points{
+        font-family: 'karlaregular';
+        font-style: normal;
+        font-size: 16px;
+        line-height: 18px;
+        font-weight: 400;
+        color: #ffffff;
+        margin-left: 45px;
+        margin-top: 28px;
+        margin-bottom: 7px;
+      }
+      #points2{
+        font-family: 'karlaregular';
+        font-style: normal;
+        font-size: 16px;
+        line-height: 18px;
+        font-weight: 700;
+        color: #ffffff;
+        margin-top: -9px;
+        margin-bottom: 2px;
+        margin-left: 45px;
+      }
+      .pointsbarra{
+        border-radius: 8px;
+        background-color: #F5DB13;
+        height: 5px;
+        margin-left: -168px;
+      }
+      .barrinha{
+        border-radius: 8px;
+        background-color: #ffffff;
+        height: 5px;
+        margin-left: 46px;
+      }
+      .barrinha2{
+        border-radius: 8px;
+        background-color: #ffffff;
+        height: 5px;
+        margin-left: 309px;
+      }
+      .pointsbarra2{
+        border-radius: 8px;
+        background-color: #F5DB13;
+        height: 5px;
+        margin-left: -168px;
+      }
+      #points3{
+        font-family: 'karlaregular';
+        font-style: normal;
+        font-size: 16px;
+        line-height: 18px;
+        font-weight: 400;
+        color: #ffffff;
+        margin-top: 28px;
+        margin-bottom: 7px;
+      }
+      #points4{
+        font-family: 'karlaregular';
+        font-style: normal;
+        font-size: 16px;
+        line-height: 18px;
+        font-weight: 700;
+        color: #ffffff;
+        margin-top: -9px;
+        margin-bottom: 2px;
+      }
+      .pokelist{
+        background: linear-gradient(215.78deg, #B57E10 -124.09%, #B57E10 -78.76%, #F9DF7B -35.76%, #FFF3A6 8.4%, #F9DF7B 50.24%, #B57E10 99.06%);
+        border-radius: 18px;   
+        margin-left: 26px;
+        margin-top: 58px;
+      }
+      #pokemonlist{
+        margin-left: -28px;
+        margin-top: -6px;
+        z-index: 5;
+        position: relative;
+      }
+      .pokebolabarra{
+        background: linear-gradient(180deg, #FFFFFF 30.32%, #F5F5F5 100%);
+        border-radius: 16px;
+        position: relative;
+        z-index: 4;
+        padding-top: 16px;
+        margin-top: -15px;
+      }
+      .nomepokemonlist{
+        font-family: 'karlaregular';
+        font-style: normal;
+        font-size: 18px;
+        line-height: 21px;
+        font-weight: 400;
+        margin-top: -3px;
+        margin-left: 4px;
+      }
+      .pokebola{
+        margin-left: 36px;
+      }
+      .pokebola2{
+        margin-left: 20px;   
+      }
+      .pokebola3{
+        margin-left: 22px;
+      }
+      .pokebola4{
+        margin-left: 27px;
+      }
+      .pokelist2{
+        background: linear-gradient(215.78deg, #B57E10 -124.09%, #B57E10 -78.76%, #F9DF7B -35.76%, #FFF3A6 8.4%, #F9DF7B 50.24%, #B57E10 99.06%);
+        border-radius: 18px;   
+        margin-left: 70px;
+        margin-top: 58px;
+      }
+      .pokelist3{
+        background: linear-gradient(215.78deg, #B57E10 -124.09%, #B57E10 -78.76%, #F9DF7B -35.76%, #FFF3A6 8.4%, #F9DF7B 50.24%, #B57E10 99.06%);
+        border-radius: 18px;   
+        margin-left: 68px;
+        margin-top: 58px;
+      }
+      #setaesquerda{
+        margin-top: 120px;
+        margin-left: 63px;
+      }
+      #setadireita{
+        margin-top: 117px;
+        margin-left: 36px;
+      }
+      #kuro{
+        font-family: 'karlaregular';
+        font-style: normal;
+        font-size: 18px;
+        line-height: 18px;
+        font-weight: 700;
+        color: #F2F2F2;
+      }
+      .rains{
+        margin-top: 34px;
+        margin-left: 42px;
+      }
+      .rains2{
+        margin-left: 42px;
+      }
+      .rains3{
+        margin-top: 78px;
+        margin-left: 42px;
+      }
+      #kuro2{
+        font-family: 'karlaregular';
+        font-style: normal;
+        font-size: 18px;
+        line-height: 18px;
+        font-weight: 700;
+        color: #212121;
+      }
+      .container {
+        display: inline-block;
+        cursor: pointer;
+      }
+      
+      .bar1, .bar2, .bar3 {
+        width: 35px;
+        height: 5px;
+        background-color: #333;
+        margin: 6px 0;
+        transition: 0.4s;
+      }
+      
+      .change .bar1 {
+        -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+        transform: rotate(-45deg) translate(-9px, 6px);
+      }
+      
+      .change .bar2 {opacity: 0;}
+      
+      .change .bar3 {
+        -webkit-transform: rotate(45deg) translate(-8px, -8px);
+        transform: rotate(45deg) translate(-8px, -8px);
+      }
+  }
