@@ -810,16 +810,11 @@
 }
     body{
         margin: 0;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center center;
-        
     }
     .principal {
       margin: auto;
       width: 1345px;
       background-color: #F5DB13; 
-      z-index: -1;
   }
   .principalpokedex{
     background-color: white;
@@ -1526,6 +1521,12 @@
     .container {
       display: none;
       cursor: pointer;
+    }
+    .home_pokemon{
+      display: inline;
+    }
+    .teste{
+      display: inline-block;
     }
   }
     

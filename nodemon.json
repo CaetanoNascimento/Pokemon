@@ -1,0 +1,10 @@
+{
+    "env":{
+        "MYSQL_USER": "root",
+        "MYSQL_PASSWORD": "kuro",
+        "MYSQL_DATABASE": "pokemon",
+        "MYSQL_HOST": "localhost",
+        "MYSQL_PORT": 3306,
+        "JWT_KEY": "Hashira"
+    }
+}
