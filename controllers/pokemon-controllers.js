@@ -45,14 +45,22 @@ exports.postPokemon = async(req, res, next) => {
         if(resultTipo_pokemon.length == 0){
             return res.status(404).send({ message: 'Tipo do pokemon não encontrado'})
         }
-        const queryPokemon = 'INSERT INTO pokemon (nome_pokemon, ataque_pokemon, experiencia, tipo_pokemon, color, imagem_pokemon) VALUES (?,?,?,?,?,?)';
+        const queryPokemon = `INSERT INTO pokemon (nome_pokemon, ataque_pokemon, experiencia, tipo_pokemon, color, 
+                              imagem_pokemon,defesa,ataque,ataque_especial,defesa_especial,numero_pokemon,geracao,hp) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?)`;
         const resultPokemon = await mysql.execute(queryPokemon, [
             req.body.nome_pokemon, 
             req.body.ataque_pokemon, 
             req.body.experiencia, 
             req.body.tipo_pokemon, 
             req.body.color, 
-            req.file.path.replace("public", "")
+            req.file.path.replace("public", ""),
+            req.body.defesa,
+            req.body.ataque,
+            req.body.ataque_especial,
+            req.body.defesa_especial,
+            req.body.numero_pokemon,
+            req.body.geracao,
+            req.body.hp
         ])
 
         const response = {

@@ -4,6 +4,7 @@ const app = express();
 
 const rotaPokemon = require('./routes/pokemon');
 const rotaPokedex = require('./routes/pokedex');
+const rotaLegendary = require('./routes/legendary')
 
 
 app.use(bodyParser.urlencoded( {extended: false}));
@@ -18,8 +19,12 @@ app.get('/', (req, res) => {
 app.get('/pokedex', (req, res) => {
     res.sendFile(__dirname + ('/public/paginas/pokedex.html'))
 })
+app.get('/legendary', (req, res) => {
+    res.sendFile(__dirname + ('/public/paginas/legendaries.html'))
+})
 
 app.use('/pokemon', rotaPokemon);
 app.use('/pokedexx', rotaPokedex);
+app.use('/legendary', rotaLegendary);
 
 module.exports = app

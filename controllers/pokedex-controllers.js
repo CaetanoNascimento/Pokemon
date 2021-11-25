@@ -12,7 +12,14 @@ exports.getPokemon = async(req, res, next) => {
                     experiencia: pokemon.experiencia,
                     tipo_pokemon: pokemon.tipo_pokemon,
                     color: pokemon.color,
-                    imagem_pokemon: pokemon.imagem_pokemon
+                    imagem_pokemon: pokemon.imagem_pokemon,
+                    defesa: pokemon.defesa,
+                    ataque: pokemon.ataque,
+                    ataque_especial: pokemon.ataque_especial,
+                    defesa_especial: pokemon.defesa_especial,
+                    numero_pokemon: pokemon.numero_pokemon,
+                    geracao: pokemon.geracao,
+                    hp: pokemon.hp
                 }
             })
         }
@@ -38,7 +45,14 @@ exports.getUmPokemon = async(req, res, next) => {
                 experiencia: result[0].experiencia,
                 tipo_pokemon: result[0].tipo_pokemon,
                 color: result[0].color,
-                imagem_pokemon: result[0].imagem_pokemon
+                imagem_pokemon: result[0].imagem_pokemon,
+                defesa: result[0].defesa,
+                ataque: result[0].ataque,
+                ataque_especial: result[0].ataque_especial,
+                defesa_especial: result[0].defesa_especial,
+                numero_pokemon: result[0].numero_pokemon,
+                geracao: result[0].geracao,
+                hp: result[0].hp
 
             }
         }
