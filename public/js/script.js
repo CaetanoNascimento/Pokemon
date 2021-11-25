@@ -171,22 +171,20 @@ class Pokedex {
             .then(result => {
                 return result.json()
             }).then(data => {
-                console.log(data)
                 for (let i = 0; i < pokemon.length; i++) {
                     if (data.pokemon.id_pokemon == id_pokemon) {
-                        console.log(data)
                         let modal = document.getElementById('id01')
-                        modal.innerHTML = `            <div class="row-1 ">
+                        modal.innerHTML = `    <div class="row-1 ">
                         <div class="col-12 modal">
                             <div class="row-1">
-                                <div class="col-5 charizard3" color style="background:var(--${data.pokemon.color + 'gradient'});border-radius: 8px;text-align: center">
+                                <div class="col-5 visual" color style="background:var(--${data.pokemon.color + 'gradient'});border-radius: 8px;text-align: center">
                                     <div class="row-1">
                                         <img src="../img/x.png" id="x"
                                             onclick="document.getElementById('id01').style.display='none'">
                                     </div>
                                     <img src="${data.pokemon.imagem_pokemon}" id="modal_imagem">
                                 </div>
-                                <div class="col-7 charizard2" color style="background:var(--${data.pokemon.color + 'gradient'});border-radius: 8px;">
+                                <div class="col-7 visual2" color style="background:var(--${data.pokemon.color + 'gradient'});border-radius: 8px;">
                                     <div class="row-1">
                                         <div class="col-6 nomedopokemon2">
                                             <span id="nomedopokemon2">${data.pokemon.nome_pokemon}</span>
@@ -547,12 +545,12 @@ class Legendary {
                 let lenda = document.getElementById('lenda')
                 lenda.innerHTML = `<div class="row-1">
                 <div class="col-6">
-                    <img src="${data.pokemon.imagem_pokemon}" id="meww">
+                    <img src="${data.pokemon.imagem_pokemon}" id="legendary_escolhido">
                 </div>
                 <div class="col-6">
                     <div class="row-1">
                         <div class="col-12">
-                            <span class="titulos mewtwo">${data.pokemon.pokemon_legendary}</span>
+                            <span class="titulos ">${data.pokemon.pokemon_legendary}</span>
                         </div>
                     </div>
                     <div class="row-1">

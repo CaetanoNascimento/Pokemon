@@ -46,10 +46,6 @@
     display: none;
   }
   
-
-
-
-  
     /* For desktop: */
       .col-1 {width: 8.33%;}
       .col-2 {width: 16.66%;}
@@ -251,105 +247,29 @@ margin-bottom: 10px;
       text-align: center;
       margin-left: 12px;
     }
-    .water{
-      background: #07D6F2;
-    }
-    .normal{
-      background: rgb(238, 172, 150);
-    }
-    .electric{
-      background-color: yellow;
-    }
-    .dark{
-     background-color: #707070;
-    }
-    .rock{
-      background-color: #a38c21;
-    }
-    .fairy{
-      background-color: pink;
-    }
+
     .centro{
       margin-top: 25px;
       margin-left: 25px;
     }
-    .centro2{
-      margin-top: 85px;
-      margin-left: 25px;
-    }
-    .centro3{
-      margin-top: 85px;
-      margin-left: 25px;
-    }
+
     .esquerda{
       margin-top: 25px;
       margin-left: 55px;
     }
-    .esquerda2{
-      margin-top: 85px;
-      margin-left: 55px;
-    }
-    .esquerda3{
-      margin-top: 85px;
-      margin-left: 55px;
-    }
+
     .direita{
       margin-top: 25px;
       margin-left: 25px;
       margin-right: 34px;
     }
-    .direita2{
-      margin-top: 85px;
-      margin-left: 25px;
-      margin-right: 34px;
-    }
-    .direita3{
-      margin-top: 85px;
-      margin-left: 25px;
-      margin-right: 34px;
-    }
-    .pikachu{
-      background-image: linear-gradient(to right, #F2CB07,#F2B807) ;
-      text-align: center;
-      border-radius: 8px;
-    }
-    .squirtle{
-      background-image: linear-gradient(to right, #5BC7FA,#35BAFF) ;
-      text-align: center;
-      border-radius: 8px;
-    }
-    .quilava{
-      background-image: linear-gradient(to right, #B23327,#D93E30) ;
-      text-align: center;
-      border-radius: 8px;
-    }
-    .charizard2{
-      background: linear-gradient(#732119, #D93E30);
-      border-top-left-radius: 0px;
-      border-top-right-radius: 8px;
-      border-bottom-right-radius: 8px;
-      border-bottom-left-radius: 0x;
+
+
+    .visual{
       max-width: 420px;
     }
-    .charizard3{
-      border-top-right-radius: 0px;
-      border-bottom-right-radius: 0px;
-
-    }
-    .tyranitar{
-      background-image: linear-gradient(to right,#a38c21, black) ;
-      text-align: center;
-      border-radius: 8px;
-    }
-    .jigglypuff{
-      background-image: linear-gradient(to right,#F89EAE, #F4B5C1) ;
-      text-align: center;
-      border-radius: 8px;
-    }
-    .mudkip{
-      background-image: linear-gradient(to right, #5BC7FA,#35BAFF) ;
-      text-align: center;
-      border-radius: 8px;
+    .visual2{
+      max-width: 40%;
     }
     .modal {
       margin-top: 20%;
@@ -523,12 +443,9 @@ margin-bottom: 10px;
       height: 1px;
       margin-left: 41px;
     }
-    #meww{
-      margin-left: 45px;
+    #legendary_escolhido{
+      margin-left: 147px;
       margin-top: 51px;
-    }
-    .mewtwo{
-      margin-top: 39px;
     }
     #descricao{
       font-family: 'karlaregular';
@@ -564,30 +481,6 @@ margin-bottom: 10px;
       margin-top: -9px;
       margin-bottom: 2px;
       margin-left: 45px;
-    }
-    .pointsbarra{
-      border-radius: 8px;
-      background-color: #F5DB13;
-      height: 5px;
-      margin-left: -168px;
-    }
-    .barrinha{
-      border-radius: 8px;
-      background-color: #ffffff;
-      height: 5px;
-      margin-left: 46px;
-    }
-    .barrinha2{
-      border-radius: 8px;
-      background-color: #ffffff;
-      height: 5px;
-      margin-left: 309px;
-    }
-    .pointsbarra2{
-      border-radius: 8px;
-      background-color: #F5DB13;
-      height: 5px;
-      margin-left: -168px;
     }
     #points3{
       font-family: 'karlaregular';
@@ -649,62 +542,6 @@ margin-bottom: 10px;
     .pokebola{
       margin-left: 25px;
     }
-    .pokebola2{
-      margin-left: 20px;   
-    }
-    .pokebola3{
-      margin-left: 22px;
-    }
-    .pokebola4{
-      margin-left: 27px;
-    }
-    .pokelist2{
-      background: linear-gradient(215.78deg, #B57E10 -124.09%, #B57E10 -78.76%, #F9DF7B -35.76%, #FFF3A6 8.4%, #F9DF7B 50.24%, #B57E10 99.06%);
-      border-radius: 18px;   
-      margin-left: 70px;
-      margin-top: 58px;
-    }
-    .pokelist3{
-      background: linear-gradient(215.78deg, #B57E10 -124.09%, #B57E10 -78.76%, #F9DF7B -35.76%, #FFF3A6 8.4%, #F9DF7B 50.24%, #B57E10 99.06%);
-      border-radius: 18px;   
-      margin-left: 68px;
-      margin-top: 58px;
-    }
-    #setaesquerda{
-      margin-top: 120px;
-      margin-left: 63px;
-    }
-    #setadireita{
-      margin-top: 117px;
-      margin-left: 36px;
-    }
-    #kuro{
-      font-family: 'karlaregular';
-      font-style: normal;
-      font-size: 18px;
-      line-height: 18px;
-      font-weight: 700;
-      color: #F2F2F2;
-    }
-    .rains{
-      margin-top: 34px;
-      margin-left: 42px;
-    }
-    .rains2{
-      margin-left: 42px;
-    }
-    .rains3{
-      margin-top: 78px;
-      margin-left: 42px;
-    }
-    #kuro2{
-      font-family: 'karlaregular';
-      font-style: normal;
-      font-size: 18px;
-      line-height: 18px;
-      font-weight: 700;
-      color: #212121;
-    }
     .container {
       display: none;
       cursor: pointer;
@@ -712,9 +549,7 @@ margin-bottom: 10px;
     .home_pokemon{
       display: inline;
     }
-    .teste{
-      display: inline-block;
-    }
+
     #imagem_pokemon{
       max-width: 180px;
       --preto: ;
