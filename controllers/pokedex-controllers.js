@@ -28,6 +28,7 @@ exports.getPokemon = async (req, res, next) => {
         }
         return res.status(200).send(response);
     } catch (error) {
+        console.log('meu deus')
         console.log(error)
         return res.status(500).send({ error: error })
     }

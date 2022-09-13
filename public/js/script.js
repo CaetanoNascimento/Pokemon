@@ -289,7 +289,7 @@ var pokedex = new Pokedex
 class Legendary {
 
     carregar_lendarios(nivel) {
-        fetch('http://localhost:8000/legendary/pokemon/' + nivel, {
+        fetch('https://pokedex-caetano.herokuapp.com/legendary/pokemon/' + nivel, {
             headers: {
                 'Content-Type': 'application/json;charset=utf-8'
             }
@@ -372,7 +372,7 @@ class Legendary {
 
     }
     carregar_lendarios_fracos(nivel) {
-        fetch('http://localhost:8000/legendary/pokemon/' + nivel, {
+        fetch('https://pokedex-caetano.herokuapp.com/legendary/pokemon/' + nivel, {
             headers: {
                 'Content-Type': 'application/json;charset=utf-8'
             }
@@ -455,7 +455,7 @@ class Legendary {
     }
 
     carregar_lendarios_fortes(nivel) {
-        fetch('http://localhost:8000/legendary/pokemon/' + nivel, {
+        fetch('https://pokedex-caetano.herokuapp.com/legendary/pokemon/' + nivel, {
             headers: {
                 'Content-Type': 'application/json;charset=utf-8'
             }
@@ -538,7 +538,7 @@ class Legendary {
 
 
     selecionar_lendario(id_legendary) {
-        fetch('http://localhost:8000/legendary/' + id_legendary)
+        fetch('https://pokedex-caetano.herokuapp.com/legendary/' + id_legendary)
             .then(result => {
                 return result.json()
             }).then(data => {
@@ -680,7 +680,7 @@ class Legendary {
 
 
     animar_lendas(x) {
-        fetch('http://localhost:8000/legendary/' + x)
+        fetch('https://pokedex-caetano.herokuapp.com/legendary/' + x)
             .then(result => {
                 return result.json()
             }).then(data => {
@@ -689,7 +689,7 @@ class Legendary {
 
     }
     desanimar_lendas(x) {
-        fetch('http://localhost:8000/legendary/' + x)
+        fetch('https://pokedex-caetano.herokuapp.com/legendary/' + x)
             .then(result => {
                 return result.json()
             }).then(data => {

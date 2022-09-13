@@ -1,8 +1,8 @@
 {
     "env":{
-        "MYSQL_USER": "b9442e12c29581",
-        "MYSQL_PASSWORD": "d3f9fa4e",
-        "MYSQL_DATABASE": "heroku_a9c2d1c113862d4",
+        "MYSQL_USER": "b22b4762f9523c",
+        "MYSQL_PASSWORD": "7a315292",
+        "MYSQL_DATABASE": "heroku_3057ddb00fe013b",
         "MYSQL_HOST": "us-cdbr-east-06.cleardb.net",
         "MYSQL_PORT": 3306,
         "JWT_KEY": "Hashira"
