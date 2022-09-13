@@ -1,9 +1,9 @@
 {
     "env":{
-        "MYSQL_USER": "root",
-        "MYSQL_PASSWORD": "kuro",
-        "MYSQL_DATABASE": "pokemon",
-        "MYSQL_HOST": "localhost",
+        "MYSQL_USER": "b9442e12c29581",
+        "MYSQL_PASSWORD": "d3f9fa4e",
+        "MYSQL_DATABASE": "heroku_a9c2d1c113862d4",
+        "MYSQL_HOST": "us-cdbr-east-06.cleardb.net",
         "MYSQL_PORT": 3306,
         "JWT_KEY": "Hashira"
     }

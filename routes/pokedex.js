@@ -11,6 +11,8 @@ const pokemonControll = require('../controllers/pokedex-controllers');
 
 router.get('/', pokemonControll.getPokemon);
 
+router.get('/report', pokemonControll.getPdf);
+
 router.get('/:id_pokemon', pokemonControll.getUmPokemon);
 
 module.exports = router
